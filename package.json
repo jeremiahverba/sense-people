@@ -1,0 +1,13 @@
+{
+  "name": "sense-people",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "git@github.com:jeremiahverba/sense-people.git",
+  "author": "Jeremiah Verba <jeremiah.verba@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@3.6.0",
+  "dependencies": {
+    "@types/i2c-bus": "^5.1.0",
+    "i2c-bus": "^5.2.2"
+  }
+}
