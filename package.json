@@ -6,8 +6,15 @@
   "author": "Jeremiah Verba <jeremiah.verba@gmail.com>",
   "license": "MIT",
   "packageManager": "yarn@3.6.0",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc index.ts"
+  },
   "dependencies": {
     "@types/i2c-bus": "^5.1.0",
     "i2c-bus": "^5.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
   }
 }
